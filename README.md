@@ -2,8 +2,6 @@
 
 Backend API for a Zoom meeting scheduling platform. Built with **NestJS**, **TypeORM (MySQL)**, and **Firebase Admin** for authentication. Admins and customer-service representatives create meeting requests with experts, meetings are scheduled on **Zoom**, and payments are collected via **SSLCommerz**. Files are uploaded to **Cloudinary**.
 
-Frontend repo: [mobin-zaman/zoom-meeting-scheduler-client](https://github.com/mobin-zaman/zoom-meeting-scheduler-client)
-
 ## Features
 
 - **Role-based auth** — Firebase ID-token auth for `admin`, `expert`, and `customer-service-representative` roles, plus bearer-token auth for end users against an external JWT endpoint.
